@@ -15,7 +15,14 @@ int main()
     cout << "개 가지고 있다.";
     cout << endl;       
     carrots = carrots - 1;  // 변수의 값을 변경한다
-    cout << "아삭아삭, 이제 당근은 " << carrots << "개이다.";
+    cout << "아삭아삭, 이제 당근은 " << carrots << "개이다.\n";
+
+    int steinway;
+    int baldwin;
+    int yamaha;
+    yamaha = baldwin = steinway = 88;       // 기이하게 보이는 코드도 허용하려는 C의 관대함을 C++ 도 따르고있군
+
+    cout << yamaha << " " << baldwin << " " << steinway;
 
     return 0;
 }
