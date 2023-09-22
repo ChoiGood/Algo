@@ -3,7 +3,7 @@
 int main()
 {
     using namespace std;
-    char ch;
+    char ch;            // char형 변수를 선언한다
 
     cout << "원하는 문자 하나를 입력하시오: " <<endl;
     cin >> ch;
