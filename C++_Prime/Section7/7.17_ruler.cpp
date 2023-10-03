@@ -15,15 +15,14 @@ int main()
     ruler[min] = ruler[max] = '|';
     std::cout << ruler << std::endl;
 
-    std::cout << "뭐야이게\n";
-    int k = 1;
-    for (k=1; k <= Divs; k++);
+    for (i = 1; i <= Divs; i++)
     {
-        subdivide(ruler, min, max, k);
+        subdivide(ruler, min, max, i);
         std::cout << ruler << std::endl;
         for (int j = 1; j < Len - 2; j++)
-            ruler[j] = ' ';                                 // 빈 눈금자로 초기화
+            ruler[j] = ' ';
     }
+    
     return 0;
 }
 
