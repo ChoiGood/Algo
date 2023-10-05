@@ -62,12 +62,12 @@ const double * f1(const double * ar, int n)
     return ar;
 }
 
-const double * f2(const double * ar[], int n)
+const double * f2(const double ar[], int n)
 {
     return ar+1;
 }
 
-const double * f3(const double * ar[], int n)
+const double * f3(const double ar[], int n)
 {
     return ar+2;
 }
