@@ -23,7 +23,7 @@ int main()
 
     cout << lesser(m, n) << endl;               // #2를 사용한다
     cout << lesser(x, y) << endl;               // double과 함께 #1을 사용한다
-    cout << lesser<>(m, n) << endl;             // int와 함께 #1dmf tkdydgksek
+    cout << lesser<>(m, n) << endl;             // int와 함께 #1을 사용한다
     cout << lesser<int>(x, y) << endl;          // int와 함께 #1을 사용한다
 
     return 0;
