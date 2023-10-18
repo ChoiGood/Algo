@@ -13,7 +13,7 @@ struct rect
     double x;               // 원점으로부터의 수평 거리
     double y;               // 원점으로부터의 수직 거리
 };
-
+ 
 // 원형
 polar rect_to_polar(rect xypos);
 void show_polar(polar dapos);

@@ -6,7 +6,7 @@ int main()
 {
     rect rplace;
     polar pplace;
-
+    
     cout << "x값과 y값을 입력하십시오: ";
     while (cin >> rplace.x >> rplace.y)         // 재치있는 cin 사용
     {
@@ -15,5 +15,5 @@ int main()
         cout << "x값과 y값을 입력하십시오(끝내려면 q를 입력): ";
     }
     cout << "프로그램을 종료합니다.\n";
-    return 0;
+    return 0;  
 }

@@ -23,5 +23,5 @@ void show_polar(polar dapos)
 
     cout << "거리 = " << dapos.distance;
     cout << ", 각도 = " << dapos.angle * Rad_to_deg;
-    cout << "도\n";
-}
+    cout << "도\n"; 
+} 
