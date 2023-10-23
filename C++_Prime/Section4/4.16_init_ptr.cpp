@@ -11,5 +11,5 @@ int main()
     cout << "*pt의 값 = " << *pt
          << ", pt의 값 = " << pt << endl;
 
-    return 0;        
+    return 0;
 }

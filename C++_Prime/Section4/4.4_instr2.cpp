@@ -14,6 +14,5 @@ int main()
     cout << "맛있는 " << dessert;
     cout << " 디저트를 준비하겠습니다. " << name << " 님!\n";
     
-    
     return 0;
 }
