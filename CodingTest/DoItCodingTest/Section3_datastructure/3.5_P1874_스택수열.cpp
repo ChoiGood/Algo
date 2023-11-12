@@ -29,7 +29,7 @@ int main()
         // 현재 수열값 >= 오름차순 자연수 : 값이 같아질 때까지 push() 수행
         if(su >= num) {
             while(su >= num) {
-                myStack.push(num);
+                myStack.push(num++);
                 resultV.push_back('+');
             }
             myStack.pop();
