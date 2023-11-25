@@ -28,7 +28,7 @@ int main()
     cout << A[N-1][M-1] << "\n";
 }
 
-void BFS(int i, int j) {    // BFS 구현
+void BFS(int i, int j) {   // BFS 구현
     queue<pair<int, int>> myqueue;
     myqueue.push(make_pair(i, j));
 
